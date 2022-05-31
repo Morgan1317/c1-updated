@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* start of header CSS */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,7 +41,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* end of header css */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* start of hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +75,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* end of hero css */
 /*Consolidated content here*/
 .benefits {
     margin-right: 20px;
@@ -94,8 +95,9 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/*took out display:block because it is an inherent property*/
 .benefits img {
-    display: block;
     margin: 10px auto;
     max-width: 150px;
  
@@ -118,6 +120,8 @@ p {
 .section-organization img{
     max-height:200px;
 }
+
+/* start of footer css */
 footer {
     padding: 30px;
     clear: both;
